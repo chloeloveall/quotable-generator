@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #ffffff;
+}
+
+body {
+  background:
+  linear-gradient(45deg, hsla(352, 96%, 45%, 1) 0%, hsla(352, 96%, 45%, 0) 70%),
+  linear-gradient(135deg, hsla(253, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%),
+  linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%),
+  linear-gradient(315deg, hsla(119, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
+}
+
+.quote-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  border: .5px solid white;
+  padding: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.quote-right {
+  float: right;
+}
+
+.quote-left {
+  float: left;
+}
+
+.footer-clear {
+  background-color: transparent;
+}
+
+.horizontal-color {
+  border-top: .5px solid white;
+}
+
+.blockquote-footer {
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #ffffff;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  border: .5px #ffffff solid;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #32DB9E;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #ffffff;
+  transform: translateY(-5px);
+}
+
+.button:focus { 
+  outline-style: none; 
+}
