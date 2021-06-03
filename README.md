@@ -1,4 +1,4 @@
-![project screenshot](src/assets/screenshot.png)
+![project screenshot](assets/screenshot.png)
 
 # _Quotable Generator_
 
